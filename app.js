@@ -12,7 +12,7 @@ app.use(cors({
 }))
 
 app.use(express.json())
-
+app.get('/', (req, res) => { res.send("Email Service Backend") })
 app.post('/', async (req, res) => {
 
     const { firstName, lastName, email, phone, message } = req.body
