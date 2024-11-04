@@ -8,7 +8,7 @@ const app = express()
 dotenv.config()
 
 app.use(cors({
-  origin: '*'
+  origin: ['rbfindustries.in']
 }))
 
 app.use(express.json())
