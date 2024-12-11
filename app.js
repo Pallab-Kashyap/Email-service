@@ -40,7 +40,7 @@ app.post('/', async (req, res) => {
         const data = await apiInstance.sendTransacEmail({
             sender,
             to: receivers,
-            subject: "test email with sandinblue",
+            subject: "RBF Industries Contact Us",
             textContent: "test email",
             htmlContent: `<!DOCTYPE html>
 <html lang="en">
